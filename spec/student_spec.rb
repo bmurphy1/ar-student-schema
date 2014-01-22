@@ -1,6 +1,7 @@
 require 'rspec'
 require 'date'
 require_relative '../app/models/student'
+require 'debugger'
 
 
 describe Student, "#name and #age" do
@@ -23,6 +24,7 @@ describe Student, "#name and #age" do
   end
 
   it "should concatenate first and last name" do
+    debugger
     @student.name.should == "Happy Gilmore"
   end
 
