@@ -7,6 +7,7 @@ class Student < ActiveRecord::Base
   validates :age, :numericality => {:greater_than_or_equal_to => 5}
   validates :phone, :length => {:minimum => 10}
 
+
   def name
     "#{self.first_name} #{self.last_name}"
   end
