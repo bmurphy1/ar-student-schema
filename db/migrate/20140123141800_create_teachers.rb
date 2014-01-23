@@ -8,7 +8,7 @@ class CreateTeachers < ActiveRecord::Migration
     create_table :teachers do |t|
       t.string :name
       t.string :email
-      t.string :phone
+      t.string :address
       t.string :phone
       t.timestamps
     end
