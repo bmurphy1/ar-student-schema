@@ -23,6 +23,9 @@ task "db:migrate" do
   end
 end
 
+
+
+
 desc "populate the test database with sample data"
 task "db:populate" do
   StudentsImporter.import
