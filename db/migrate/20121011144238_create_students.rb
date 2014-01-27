@@ -12,7 +12,6 @@ class CreateStudents < ActiveRecord::Migration
       s.date :birthday
       s.string :email
       s.string :phone
-      s.timestamps
     end
   end
 end
